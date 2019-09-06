@@ -1,0 +1,30 @@
+{
+	"url": "wportalinterno.pre.mapfre.net/EVT21_NSE_FWEB/inicioMenu.jsf",
+	"usuarioEmisor": {
+		"id" : "Clarra2e",
+		"password": "Mapfre2014"		
+	},	
+	"usuarioSubscriptor": {
+		"id" : "Clarra1s",
+		"password": "Mapfre2014"		
+	},	
+	"usuarioSubscriptorCentral": {
+		"id" : "Clarra2r",
+		"password": "Mapfre2014"		
+	},	
+	"usuarioCambioClave": {
+		"id" : "CLARRA1A",
+		"password": "Mapfre2014"		
+	},	
+	"clienteExistente": {
+		"nombre" : "Gabriel",
+		"apellido1": "Alvarez",
+		"apellido2": "Sanchez",
+		"nif": "33552112B"
+	},
+	"datosVivienda": {
+		"coPostal" : "28020",
+		"anoConstruccion" : "1995",
+		"m2Vivienda" : "80"
+	}
+}

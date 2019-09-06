@@ -1,0 +1,66 @@
+package es.mapfre.nse.paginas.subscripcion.operaciones;
+
+import es.mapfre.nse.paginas.PaginaBase;
+
+public class PaginaBusquedaSubscripciones extends PaginaBase {
+
+	private static String XPATH_TITULO = "//*[@id=\"formGestionSuscripciones\"]/div[1]/div/div[3]/span";	
+	private static String ID_INPUT_FECHA_MECANIZACION_DESDE = "formGestionSuscripciones:fechaMecaDesdeInputDate";
+	private static String ID_INPUT_FECHA_MECANIZACION_HASTA = "formGestionSuscripciones:fechaMecaHastaInputDate";
+	private static String ID_BOTON_BUSCAR = "formGestionSuscripciones:btnBuscar";
+	private static String ID_BOTON_CONTROLES_TECNICOS = "formGestionSuscripciones:btnControlesTec";
+	private static String ID_BOTON_ACEPTAR_CONTROLES_TECNICOS = "formControlesTecnicos:btnAceptarNI";
+	private static String ID_BOTON_VER_HISTORIAL = "formGestionSuscripciones:btnVerHistorial";
+	private static String ID_BOTON_ACEPTAR_VER_HISTORIAL = "formHistorialSuscripcion:btnAceptarNI";
+	
+	private static String ID_LABEL_NUM_RESULTADOS = "tSuscripcionesTotalRecordsNumber";
+	private static String ID_RADIO_RESULTADO_BASE = "tSuscripciones_radio_grupo_-1_fila_";
+
+	
+	@Override
+	protected String getXpathTitulo() {
+		return XPATH_TITULO;
+	}
+	
+	public void setFechaMecanizacionDesde(String fecha) {
+		waitForLoading(1000);
+		rellenarCampo(ID_INPUT_FECHA_MECANIZACION_DESDE, fecha);
+	}
+
+	public void setFechaMecanizacionHasta(String fecha) {
+		waitForLoading(1000);
+		rellenarCampo(ID_INPUT_FECHA_MECANIZACION_HASTA, fecha);
+	}
+	
+	public void pulsarBotonBuscar() {
+		pulsarBotonConEspera(ID_BOTON_BUSCAR);
+	}
+
+	public int getResultados() {
+		return Integer.parseInt(findElementById(ID_LABEL_NUM_RESULTADOS).getText());
+	}
+	
+	public void pulsarBotonControlesTecnicos() {
+		waitForLoading(1000);
+		pulsarBotonConEspera(ID_BOTON_CONTROLES_TECNICOS);
+	}
+	
+	public void pulsarBotonAceptarControlesTecnicos() {
+		waitForLoading(1000);
+		pulsarBotonConEspera(ID_BOTON_ACEPTAR_CONTROLES_TECNICOS);
+	}
+	
+	public void pulsarBotonVerHistorial() {
+		pulsarBotonConEspera(ID_BOTON_VER_HISTORIAL);
+	}
+	
+	public void pulsarBotonAceptarVerHistorial() {
+		pulsarBotonConEspera(ID_BOTON_ACEPTAR_VER_HISTORIAL);
+	}
+
+	public void seleccionarResultadoBusqueda(int i) {
+		findElementById(ID_RADIO_RESULTADO_BASE + i).click();
+		waitForLoading(1000);
+	}
+
+}

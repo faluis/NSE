@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="es.mapfre.nse.paginas.gestion.operaciones.PaginaBusquedaOperaciones"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="jxl.biff.drawing.ComboBox"/>
+<fullyQualifiedTypeName name="java.util.function.Supplier"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="es.mapfre.nse.paginas.SubPaginaGenerarDocumentacion"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="es.mapfre.nse.paginas.contratacion.PaginaInformacionGeneral"/>
+<fullyQualifiedTypeName name="es.mapfre.nse.paginas.contratacion.PaginaFigurasParticipantes"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="es.mapfre.nse.pruebas.utils.UtilidadesClientes"/>
+<fullyQualifiedTypeName name="es.mapfre.nse.pruebas.utils.DatosPrueba"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="es.mapfre.nse.pruebas.utils.Utilidades"/>
+<fullyQualifiedTypeName name="es.mapfre.nse.paginas.subscripcion.operaciones.PaginaBusquedaSubscripciones"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="es.mapfre.nse.paginas.gestion.solicitudes.PaginaBusquedaSolicitudes"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+</qualifiedTypeNameHistroy>

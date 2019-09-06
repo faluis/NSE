@@ -1,0 +1,49 @@
+1560777671211	Move compilation units
+1560777695598	Move compilation units
+1560782915353	Delete element
+1560782918693	Delete element
+1560782932093	Delete element
+1560842068510	Rename type 'CP_002_GenerarProyecto_Test'
+1560842158006	Rename type 'CP_004_GenerarProyectoMultiprecioTest'
+1560842213214	Rename type 'CP_006_GenerarProyectoClienteExistenteTest'
+1560842253212	Rename type 'CP_008_GenerarPropuestaClienteExistenteTest'
+1560842271074	Rename type 'CP_010_GenerarSolicitudPropuestaClienteExistenteTest'
+1560842291743	Rename type 'CP_012_GenerarSolicitudPolizaClienteExistenteTest'
+1560842492123	Rename type 'CP_101_BuscarFechaMecanizacionTest'
+1560842496366	Rename type 'CP_102_RestablecerTest'
+1560842500609	Rename type 'CP_103_EliminarProyectoTest'
+1560842504494	Rename type 'CP_104_GenerarDocumentoProyectoTest'
+1560842508752	Rename type 'CP_106_GenerarDocumentoPropuestaTest'
+1560842514571	Rename type 'CP_109_CopiarPropuestaTest'
+1560842601400	Rename type 'CP_110_CopiarOperacionIncompletaTest'
+1560842604863	Rename type 'CP_118_ConsultarOperacionIncompletaTest'
+1560842609075	Rename type 'CP_121_ConsultarPropuestaTest'
+1560842739224	Rename resource 'datos_pre.json'
+1560842744060	Move file
+1560842784026	Rename resource 'entorno.json'
+1560842854194	Rename type 'UtilidadesClientes'
+1560843723518	Rename type 'DatosPrueba'
+1560844748317	Copy file
+1560844942219	Copy file
+1560848529091	Copy file
+1560848739638	Copy file
+1560848761181	Copy file
+1560848903104	Copy file
+1560851824832	Copy file
+1560851832694	Copy file
+1560851840775	Copy file
+1560851849745	Copy file
+1560851858871	Copy file
+1560851864409	Copy file
+1560926589601	Copy compilation unit
+1560926605607	Copy compilation unit
+1560929102696	Copy compilation unit
+1560929603796	Delete element
+1560929623921	Copy compilation unit
+1560935721567	Copy compilation unit
+1560935743937	Rename type 'PaginaBusquedaSubscripciones'
+1560937625231	Copy compilation unit
+1560937628538	Copy compilation unit
+1560938324694	Rename type 'CP402_ConsultarControlesTecnicos'
+1560938339561	Rename type 'CP403_ConsultarHistorial'
+1561017651896	Copy compilation unit

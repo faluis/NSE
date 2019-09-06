@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/animal-sniffer-annotations-1.14.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/checker-compat-qual-2.0.0.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/error_prone_annotations-2.1.3.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/j2objc-annotations-1.1.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-api-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-chrome-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-edge-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-firefox-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-ie-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-java-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-opera-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-remote-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-safari-driver-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/PruebasRegresion/lib/selenium-support-3.141.59.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

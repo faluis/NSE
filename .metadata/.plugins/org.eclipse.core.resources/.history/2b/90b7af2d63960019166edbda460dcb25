@@ -1,0 +1,5 @@
+package es.mapfre.nse.paginas;
+
+public class CampoNoEncontradoException extends Exception {
+
+}
